@@ -52,7 +52,7 @@ const cloneObj = Object.assign({}, originalObj);
 ```
 With this example, I'm using `Object.assign()` to create a new object (`cloneObj`) and assign all the `properties` of the `originalObj` to it. The first argument of `Object.assign()` is an empty object (`{}`), which will be the target object that receives the `properties`.
 
-Another way to `clone` an object is to use the spread operator `(...)` which I will go into more, inside my [Destructing Objects and Arrays with JavaScript](https://github.com/joelinman-nxp/Javascript/blob/main/Tasks/javascript_) write up.
+Another way to `clone` an object is to use the spread operator `(...)` which I will go into more, inside my [Destructing Objects and Arrays with JavaScript](https://github.com/joelinman-nxp/Javascript/blob/main/Tasks/javascript_destructuring) write up.
 
 ```javascript
 const originalObj = {a: 1, b: 2};
